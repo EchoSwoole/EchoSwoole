@@ -1,0 +1,15 @@
+#!/usr/bin/env php
+<?php
+/**
+ * Register The Auto Loader
+ */
+require __DIR__.'/vendor/autoload.php';
+
+use Echoswoole\Console\Application;
+
+/**
+ * Run The Console Application
+ */
+$application = new Application();
+
+$application->run();
