@@ -1,14 +1,14 @@
 #!/usr/bin/env php
 <?php
 /**
- * Register The Auto Loader
+ * 加载autoload文件
  */
 require __DIR__.'/vendor/autoload.php';
 
 use Echoswoole\Console\Application;
 
 /**
- * Run The Console Application
+ * 控制台
  */
 $application = new Application();
 
